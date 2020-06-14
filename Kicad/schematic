@@ -1,0 +1,45 @@
+Source,/home/nursyeha/Documents/kicad/driver_motor_MOSFET/schematic.sch
+Kicad Rev,Eeschema 4.0.5+dfsg1-4
+Generated Date,Sat 17 Mar 2018 09:46:41 PM WIB
+
+Title,minimum system for anemometer
+Company,agungmini
+Revision,alpha
+Date Issue,2018-01-27
+
+Reference,Value,Library,Library Ref
+Q3,IRF540N,transistors,IRF540N
+Q4,IRF540N,transistors,IRF540N
+Q1,IRF9540N,transistors,IRF9540N
+Q2,IRF9540N,transistors,IRF9540N
+R4,10k,device,R
+R3,10k,device,R
+Q5,BD139,transistors,BD139
+Q6,BD139,transistors,BD139
+R1,330,device,R
+R2,330,device,R
+R7,1k,device,R
+R8,1k,device,R
+D5,LED,device,LED
+D6,LED,device,LED
+J1,Screw_Terminal_1x02,conn,Screw_Terminal_1x02
+D1,D,device,D
+D2,D,device,D
+D4,D,device,D
+D3,D,device,D
+U2,LM7805CT,regul,LM7805CT
+C1,0.33uF,device,CP1
+C2,0.1uF,device,CP1
+U3,LM7809CT,regul,LM7809CT
+C3,0.33uF,device,CP1
+C4,0.1uF,device,CP1
+sensor1,male_pin_header,conn,CONN_01X04
+sensor2,male_pin_header,conn,CONN_01X04
+sensor3,male_pin_header,conn,CONN_01X04
+U4,arduino_UNO,arduino_uno,arduino_UNO
+P1,CONN_01X05,conn,CONN_01X05
+R9,1k,device,R
+R10,1k,device,R
+D7,LED,device,LED
+D8,LED,device,LED
+U1,compass_gy-26,compass_gy-26,compass_gy-26
